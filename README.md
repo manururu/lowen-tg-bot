@@ -1,2 +1,7 @@
 # lowen-tg-bot
-Simple Golang Telegram bot for my husband ❤️
+
+A simple Telegram bot built with `go-telegram/bot` library.
+
+## Setup
+1. Set `TELEGRAM_TOKEN` environment variable.
+2. Run `go run cmd/bot/main.go`.
