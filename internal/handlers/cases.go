@@ -44,7 +44,7 @@ func sendCasesMessage(ctx context.Context, b *bot.Bot, update *models.Update, ti
 func TgCasesHandler(ctx context.Context, b *bot.Bot, update *models.Update) {
 	sendCasesMessage(ctx, b, update,
 		"📄 <b>Кейсы Telegram</b>",
-		[] Russtring{
+		[]string{
 			"<a href='https://telegra.ph/Telegram-Cases-Placeholder'>🔗 Тут будет ссылка на кейс</a>",
 		})
 }
